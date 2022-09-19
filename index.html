@@ -37,7 +37,6 @@
                 <li><a href="#">Top</a></li>
                 <li><a href="#intro">Material models</a></li>
                 <li><a href="#results">Results</a></li>
-                <li><a href="#code">Demo code</a></li>
             </ul>
         </div>
 
@@ -70,6 +69,18 @@
                 <li>
                     <b>Wood:</b> Here albedo gives the earlywood color, <tt>ring_size</tt> the size of a growth ring in centimeters, <tt>lw_power</tt> the power applied to earlywood color to get the (usually more absorptive) latewood color. The parameters <tt>lw_fraction</tt>, <tt>lw_ramp_width</tt> and <tt>ew_ramp_width</tt> control the relative size of the latewood as a fraction of the growth ring, as well as the smoothness of the latewood/earlywood transitions. The small scale noise scale and strength are controlled by <tt>ssn_scale</tt> and <tt>ssn_power</tt>, respectively. Growth rate noise scale and strength are controlled by <tt>grn_scale</tt> and <tt>grn_amplitude</tt>, respectively. Global distortion noise scale and strength are controlled by <tt>gdn_scale</tt> and <tt>gdn_amplitude</tt>, respectively. Finally, <tt>ew_rough</tt> and <tt>lw_height</tt> control the relative roughness and height of of earlywood vs. latewood, and <tt>cut_angle</tt> and <tt>center</tt> control the cutting plane with respect to original tree axis.
                 </li>
+            </ul>
+
+            <p>
+                We provide <a href="https://github.com/tflsguoyu/proceduralmat/tree/master/procedural_model_test" target="_blank">demo code</a> (<tt>run_me_*.py</tt>) to generate different materials.
+            </p>
+            <ul>
+                <li><b>Bumpy surface:</b> <tt>run_me_bump.py</tt></li>
+                <li><b>Leather:</b> <tt>run_me_leather.py</tt></li>
+                <li><b>Plaster:</b> <tt>run_me_plaster.py</tt></li>
+                <li><b>Metallic flake:</b> <tt>run_me_flake.py</tt></li>
+                <li><b>Brushed metal:</b> <tt>run_me_metal.py</tt></li>
+                <li><b>Wood:</b> <tt>run_me_wood.py</tt></li>
             </ul>
 
         <div class="box" style="width: 700px; margin-top: 40px">
@@ -231,19 +242,6 @@
                 <li>MCMC sampling</li>
                 <div id="wood_real_sample" class="ani"></div>
 
-            </ul>
-
-            <div class="subtitle" id="code">Demo code</div>
-            <p>
-            	We provide <a href="https://github.com/tflsguoyu/proceduralmat/tree/master/procedural_model_test" target="_blank">demo code</a> (<tt>run_me_*.py</tt>) to generate different materials.
-            </p>
-            <ul>
-            	<li><b>Bumpy surface:</b> <tt>run_me_bump.py</tt></li>
-            	<li><b>Leather:</b> <tt>run_me_leather.py</tt></li>
-            	<li><b>Plaster:</b> <tt>run_me_plaster.py</tt></li>
-            	<li><b>Metallic flake:</b> <tt>run_me_flake.py</tt></li>
-            	<li><b>Brushed metal:</b> <tt>run_me_metal.py</tt></li>
-            	<li><b>Wood:</b> <tt>run_me_wood.py</tt></li>
             </ul>
 
     </div><!-- "warp" -->
